@@ -1,3 +1,9 @@
-@tailwind basic;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-links {
+    @apply py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300;
+  }
+}
